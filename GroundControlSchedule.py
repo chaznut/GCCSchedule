@@ -21,7 +21,7 @@ def scrape():
     print(event)
     #authorization
     
-    gc = pygsheets.authorize(service_file='/Users/nutte/Desktop/GroundControl/BJJ Schedule-8b9636beeac8.json')
+    gc = pygsheets.authorize(service_file='/Users/user/import_key.json')
     
     #create empy dataframe
     df = pd.DataFrame()
